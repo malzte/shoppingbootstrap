@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -12,10 +13,13 @@ html, body {
     color: #fff;
     position: relative;
   }
-
+.text-muted{
+    font-weight:bold;
+}
   .jumbotron h1 {
     font-size: 70px;
     margin-bottom: 0;
+    font-family: 'Lexend Mega', sans-serif;
   }
   
   .jumbotron p {
@@ -25,3 +29,26 @@ html, body {
     margin: 0 0 30px;
   }
   
+  .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.card-title{
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.card-text{
+    font-family: 'KoHo', sans-serif;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    nav { background-color: rgb(233, 217, 221); }
+}
+@media screen and (min-width: 601px) and (max-width: 999px) {
+    nav { background-color: rgb(228, 216, 195); }
+}
+@media screen and (min-width: 1000px) {
+    nav { background-color: rgb(255, 255, 255);}
+}
